@@ -28,7 +28,12 @@ double B; //actual inverse temperatuer for an iteration
 int x; //random x position
 int y; //random y position
 double r; //uniform random number
-double condition ;
+double condition; //spin flip condition
+
+int iteration;
+int start;
+int sweeps = 600000;
+int counter;
 
 //observables
 int beforeE = 0; //local energy before spin flip 
